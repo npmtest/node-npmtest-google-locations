@@ -1,4 +1,7 @@
-# test coverage for  [google-locations (v0.2.0)](http://github.com/eastbayjake/google-locations)  [![npm package](https://img.shields.io/npm/v/npmtest-google-locations.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-locations) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-locations.svg)](https://travis-ci.org/npmtest/node-npmtest-google-locations)
+# npmtest-google-locations
+
+#### basic test coverage for  [google-locations (v0.2.0)](http://github.com/eastbayjake/google-locations)  [![npm package](https://img.shields.io/npm/v/npmtest-google-locations.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-locations) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-locations.svg)](https://travis-ci.org/npmtest/node-npmtest-google-locations)
+
 #### Google Places API for Node.js, with convenience methods to search by address or phone number
 
 [![NPM](https://nodei.co/npm/google-locations.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/google-locations)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-google-locations/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-google-locations/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-google-locations/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-google-locations/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-locations/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-locations/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-google-locations/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-google-locations/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-locations/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-locations/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-google-locations/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-google-locations/build/coverage.html/index.html)
 
@@ -70,7 +73,8 @@
     "scripts": {
         "test": "node ./test/index.test.js"
     },
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
 
